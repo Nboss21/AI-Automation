@@ -195,14 +195,6 @@ Each command is independent and the bot stores no user data or database records.
 
 This project uses Telegram polling, which is perfect for local development. The bot replies only while `python bot.py` is running. To keep it online 24/7, deploy it as a background worker or long-running service and set the same three environment variables in the host's secret settings.
 
-## Ideas for the next version
-
-- Choose a news country or category
-- Add weather forecasts
-- Add inline keyboards
-- Deploy with Docker or a webhook
-- Add automated tests for every handler
-
 ---
 
 Built as a foundations project: simple, readable, and ready to grow. ✨
